@@ -8,7 +8,7 @@
       <h2 class="subtitle">
         Nuxt.js project
       </h2>
-      <div class="links">
+      <div class="content links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
