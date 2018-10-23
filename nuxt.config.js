@@ -66,7 +66,7 @@ module.exports = {
     [
       'nuxt-sass-resources-loader',
       [
-        'assets/scss/_shared.scss',
+        'assets/scss/_vars.scss',
         'assets/scss/_utilities.scss'
       ]
     ]
