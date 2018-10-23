@@ -73,7 +73,7 @@ h1 {
       opacity: 0;
     }
     &_bar {
-      fill: #ffae48;
+      fill: $highlight_lite;
       width: 55px;
     }
   }
@@ -87,7 +87,7 @@ h1 {
       &_text {
       }
       &_bar {
-        fill: #f8971d;
+        fill: $highlight_col;
         width: 150px;
       }
     }

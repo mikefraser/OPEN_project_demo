@@ -16,6 +16,12 @@ export default {
 </script>
 
 <style lang="scss">
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 html {
   background-color: $bkground_col;
   margin: 0;
