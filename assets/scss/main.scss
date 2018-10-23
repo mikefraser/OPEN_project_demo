@@ -1,0 +1,22 @@
+//
+// MAIN
+// ===================================================
+
+// Base scss file.
+
+// IMPORTS
+// ------------------------------------------
+
+@import 'vars';
+@import 'utilities';
+@import '../../node_modules/normalize.css/normalize.css';
+
+// CONTENT
+
+@import 'typography';
+
+// ------------------------------------------
+
+body {
+  background-color: red;
+}

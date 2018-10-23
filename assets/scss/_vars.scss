@@ -1,0 +1,30 @@
+//
+// Variables
+// ===================================================
+
+
+// COLOURS
+//--------------------
+$bkground_col: #fff;
+$main_txt_col: #333;
+$head_txt_col: #000;
+$highlight_col: #F8971D;
+$highlight_dark: darken($highlight_col, 9);
+$highlight_lite: lighten($highlight_col, 9);
+
+
+// MEDIA QUERY BREAKPOINTS @type Map
+// -------------------------------------
+$breakpoints: ("babyBear": "(min-width: 500px)",
+"mamaBear": "(min-width: 700px)",
+"papaBear": "(min-width: 900px)",
+"r_babyBear": "(max-width: 501px)",
+"r_mamaBear": "(max-width: 701px)",
+"r_papaBear": "(max-width: 901px)",
+"ex_babyBear": "(max-width: 501px)",
+"ex_mamaBear": "(min-width: 500px) and (max-width: 901px)",
+"ex_papaBear": "(min-width: 700px) and (max-width: 1281px)"
+) !default;
+
+// Enable/disable media queries @type Bool
+$MQs: true !default;

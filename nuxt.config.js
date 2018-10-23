@@ -23,6 +23,7 @@ module.exports = {
       href: '/favicon.ico'
     }],
     css: [
+      'https://use.typekit.net/tke3glj.css',
       '@/assets/scss/main.scss'
     ]
   },
@@ -52,5 +53,15 @@ module.exports = {
         })
       }
     }
-  }
+  },
+
+  modules: [
+    [
+      'nuxt-sass-resources-loader',
+      [
+        'assets/scss/_shared.scss',
+        'assets/scss/_utilities.scss'
+      ]
+    ]
+  ]
 }
