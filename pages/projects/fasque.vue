@@ -1,17 +1,36 @@
 <template>
-  <section class="container content">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank">Documentation</a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank">GitHub</a>
-  </section>
+  <div class="content">
+    <project-header />
+      <section class="main">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aspernatur praesentium iste facilis, consequuntur eligendi repellendus minus id tempore pariatur. Commodi hic in delectus esse fugit ducimus sit dolorum aliquid.</p>
+      </section>
+  </div>
 </template>
 
 <script>
+import ProjectHeader from "~/components/pageSections/ProjectHeader.vue";
+
+export default {
+  components: {
+    ProjectHeader
+  }
+};
 </script>
 
-<style>
+<style lang="scss">
+.main {
+  background-color: $bkground_col;
+}
 </style>
+
 
