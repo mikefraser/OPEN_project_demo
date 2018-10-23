@@ -1,25 +1,16 @@
 <template>
-  <section class="container">
-    <div>
-      <site-header/>
-      <article>
-        <div class="content links">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank">Documentation</a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank">GitHub</a>
-        </div>
-      </article>
-      
+    <div class="content">
+          <h2><nuxt-link to="/projects/fasque">Fasque</nuxt-link></h2>
     </div>
-  </section>
 </template>
 
-<script>
-</script>
 
-<style>
+<style lang="scss" scoped>
+.content {
+  padding-top: 10vh;
+}
+h2 {
+  text-align: center !important;
+  margin-bottom: 5vh;
+}
 </style>
-

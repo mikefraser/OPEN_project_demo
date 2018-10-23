@@ -93,8 +93,6 @@ h1 {
       &_open {
         opacity: 1;
       }
-      &_text {
-      }
       &_bar {
         fill: $highlight_col;
         width: 150px;

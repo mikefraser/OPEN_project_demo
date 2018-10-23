@@ -1,16 +1,21 @@
 <template>
   <div>
     <site-header/>
-    <nuxt/>
+    <section class="container"> 
+      <nuxt/>
+    </section>
+    <site-footer/>
   </div>
 </template>
 
 <script>
 import SiteHeader from "~/components/SiteHeader.vue";
+import SiteFooter from "~/components/SiteFooter.vue";
 
 export default {
   components: {
-    SiteHeader
+    SiteHeader,
+    SiteFooter
   }
 };
 </script>
@@ -30,6 +35,9 @@ html {
 
 body {
   min-height: 100vh;
+}
+.container {
+  min-height: 80vh;
 }
 </style>
 

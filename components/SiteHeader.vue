@@ -21,7 +21,11 @@ export default {
 
 <style lang="scss">
 .pageHeader {
-  margin: 1rem;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 20;
 
   nav {
     position: relative;
