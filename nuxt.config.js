@@ -18,13 +18,14 @@ module.exports = {
       }
     ],
     link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }],
-    css: [
-      'https://use.typekit.net/tke3glj.css',
-      '@/assets/scss/main.scss'
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://use.typekit.net/tke3glj.css'
+      }
     ]
   },
   /*
@@ -33,6 +34,12 @@ module.exports = {
   loading: {
     color: '#3B8070'
   },
+  /*
+   ** Add in SCSS
+   */
+  css: [
+    '@/assets/scss/main.scss'
+  ],
   /*
    ** Build configuration
    */
