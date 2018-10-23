@@ -1,10 +1,23 @@
 <template>
-	<h1>heres the header</h1>
+	<header class="pageHeader">
+		<nav>
+			<app-logo/>
+		</nav>
+	</header>
 </template>
 
 <script>
-export default {};
+import AppLogo from "~/components/AppLogo.vue";
+
+export default {
+  components: {
+    AppLogo
+  }
+};
 </script>
 
-<style>
+<style lang="scss">
+.pageHeader {
+  margin: 1em;
+}
 </style>

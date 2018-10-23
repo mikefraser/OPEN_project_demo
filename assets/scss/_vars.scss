@@ -13,6 +13,13 @@ $highlight_dark: darken($highlight_col, 9);
 $highlight_lite: lighten($highlight_col, 9);
 
 
+// Type families
+//--------------------
+$type_std: "ff-basic-gothic-pro",
+sans-serif;
+$type_headers: "brandon-grotesque";
+
+
 // MEDIA QUERY BREAKPOINTS @type Map
 // -------------------------------------
 $breakpoints: ("babyBear": "(min-width: 500px)",
