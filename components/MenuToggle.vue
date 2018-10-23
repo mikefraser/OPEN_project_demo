@@ -1,6 +1,6 @@
 <template>
 	<button class="tgl" :aria-pressed="menuActive" @click="toggleMenuActive">
-		<svg class="tgl_ic" viewBox="0 -3 24 23">
+		<svg class="tgl_ic" viewBox="0 -3 24 24">
 				<path class="line_1" d="M23,0 q1,0 1,1 v1 q0,1 -1,1 h-22 q-1,0 -1,-1 v-1 q0,-1 1,-1 Z"/>
 				<path class="line_2" d="M23,7 q1,0 1,1 v1 q0,1 -1,1 h-22 q-1,0 -1,-1 v-1 q0,-1 1,-1 Z"/>
 				<path class="line_3" d="M23,14 q1,0 1,1 v1 q0,1 -1,1 h-22 q-1,0 -1,-1 v-1 q0,-1 1,-1 Z"/>
@@ -58,7 +58,9 @@ button {
 .tgl {
   @extend %clear_btn_styles;
   display: block;
-  width: 1.5em;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
 
   &_txt {
     @extend %visually_hidden;

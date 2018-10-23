@@ -46,19 +46,28 @@ export default {};
 <style lang="scss" scoped>
 h1 {
   position: relative;
-  width: 4.7em;
+  // width: 9rem;
+  // height: 2rem;
+  margin: 0;
 
   span {
-    font-size: 0.4em;
+    font-size: 0.4rem;
     font-weight: normal;
     position: absolute;
     text-transform: lowercase;
-    left: 0.2em;
-    bottom: 0.9em;
+    left: 0.2rem;
+    bottom: 0.9rem;
     color: transparent;
   }
 }
 .logo {
+  width: 100%;
+  height: 100%;
+
+  svg {
+    display: block;
+  }
+
   &_vector {
     &_open,
     &_text,

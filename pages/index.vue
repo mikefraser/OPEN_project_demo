@@ -2,22 +2,17 @@
   <section class="container">
     <div>
       <site-header/>
-      <h2 class="title">
-        open_project_demo
-      </h2>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="content links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+      <article>
+        <div class="content links">
+          <a
+            href="https://nuxtjs.org/"
+            target="_blank">Documentation</a>
+          <a
+            href="https://github.com/nuxt/nuxt.js"
+            target="_blank">GitHub</a>
+        </div>
+      </article>
+      
     </div>
   </section>
 </template>
